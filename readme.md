@@ -4,8 +4,6 @@ A `<TextField>` component for react-native projects was initially cloned from [`
 
 Material texfield with consistent behaviour on iOS and Android
 
-![example][example-url]
-
 ## Features
 
 * Material design [guidelines][md-textfield] compliance
