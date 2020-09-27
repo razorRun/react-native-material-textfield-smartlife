@@ -110,11 +110,9 @@ export default class Label extends PureComponent {
     };
 
     return (
-      <Animated.View style={[styles.container, containerStyle]}>
-        <Animated.Text allowFontScaling={false} style={[styles.text, style, textStyle]} {...props}>
+      <Animated.Text allowFontScaling={false} style={[styles.text, style, textStyle]} {...props}>
           {label}
-        </Animated.Text>
-      </Animated.View>
+      </Animated.Text>
     );
   }
 }
